@@ -1,0 +1,80 @@
+/*******
+admin backend design
+*********/
+.home-btn{
+	list-style:none;
+}
+
+.home-btn a{
+	padding: 20px;
+	margin-top: 20px;
+	float: left;
+	border: 1px solid #eee;
+	width: 170px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 1px 1px 2px 2px #aaa;
+	display: block;
+	font-weight:bold;
+	color:#555;
+	}
+	
+	.home-btn a:hover{
+		font-weight:normal;
+		text-decoration:none;}
+
+.my-fixed{
+	height:50px;
+	width:100%;
+	float:left;
+	position:fixed;
+	top:0;
+	left:0;
+	border-bottom: #ddd 1px solid;
+	box-shadow:1px 1px 3px #999999;
+	margin:0px 0px 30px 0px;
+	}
+	
+ul.my-nav {
+	padding:none;
+	margin:5px 0px 0px;
+	width:80%;
+}
+
+ul.my-nav li {
+	padding:none;
+	margin:none;
+	list-style:none;
+	}
+
+ul.my-nav li a{
+	display:inline-block;
+/*	padding: 10px 10px 10px;;*/
+	float:left;
+	}
+	
+.container{
+	width:650px;
+	min-height:350px;
+	margin: 50px auto;
+	box-shadow:#999 1px 1px 3px;
+	padding:30px 20px;
+	}
+.caps{
+	text-transform:uppercase;
+	font-weight:bold;
+	}
+.delete-form{
+	width:100%;
+	min-height:35px;
+	float:left;
+	clear:both;
+	border-bottom: 1px solid #ddd;
+	margin-bottom:10px;
+	padding: 5px 0px;
+	}
+	
+#delete_id{
+	height:35px;
+	
+	}
